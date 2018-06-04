@@ -1,0 +1,78 @@
+.btn {
+  width: 220px;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  outline: none;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+.btnDisabled {
+  width: 220px;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.textB {
+  width: 200px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.textB::placeholder {
+  font-style: italic;
+}
+
+.textB:focus {
+  outline: none;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+.textBDisabled {
+  width: 200px;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.textBDisabled::placeholder {
+  font-style: italic;
+}
+
+.radioButtonContainer {
+  width: 150px;
+  margin: 20px auto;
+}
+
+.cardContainer {
+  width: 200px;
+  margin: 10px auto;
+  padding: 0 10px;
+  border: 1px solid #000;
+}
+
+.cardContainer p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.cardContainer button {
+  width: 180px;
+}
+
+@media only screen and (min-width: 768px) {
+  .textBDisabled {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,35 @@
+body {
+  background-color: #8FBBCA;
+}
+
+.container {
+  padding: 30px 0;
+  width: 100%;
+  text-align: center;
+  background-color: #FFF;
+}
+
+.colorPalletContainer button {
+  margin-bottom: 10px;;
+  width: 150px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding-top: 50px;
+    width: 90%;
+    background-color: #FFF;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 1000px;
+    margin: 50px auto;
+  }
+}
